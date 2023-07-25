@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>Website Foto Kucing</h1>
+      <section>
+        <h2>Foto Kucing</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>Pengen liat lagi? <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> Klik itu aja.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>List Kucing</h2>
+        <h3>Hal yang kucing sukai:</h3>
+        <ul>
+          <li>Mau</li>
+          <li>Mauri</li>
+          <li>Mauriyani</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 yang fatir sukai:</h3>
+        <ol>
+          <li>Mau/li>
+          <li>Mauriyani</li>
+          <li>Mauriyani Nurhamidah</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>kucing <strong>ga suka</strong> kucing lain.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>formulir/h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>suka fatir engga?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> iyaa</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> betul</label>
+          </fieldset>
+          <fieldset>
+            <legend>Alasan</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Ganteng</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Kece</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Cool</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="Masukin link pap mau" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        kalo buka ini harus ngasih pap
+      </p>
+    </footer>
+  </body>
+</html>
